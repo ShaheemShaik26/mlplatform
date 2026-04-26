@@ -9,7 +9,6 @@ from mlplatform.db import init_db
 from mlplatform.promotion import PromotionPolicy
 from mlplatform.registry import ModelRegistry
 from mlplatform.schemas import ExperimentConfig
-from mlplatform.serving.app import create_serving_app
 from mlplatform.training.service import TrainingService
 
 

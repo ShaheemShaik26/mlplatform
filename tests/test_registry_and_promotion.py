@@ -9,7 +9,7 @@ from mlplatform.training.service import TrainingService
 def test_rollback_restores_previous_version() -> None:
     init_db()
     service = TrainingService()
-    first = service.run_sync(
+    service.run_sync(
         ExperimentConfig(
             experiment_name="rollback-1",
             model_name="classifier-c",
@@ -22,7 +22,7 @@ def test_rollback_restores_previous_version() -> None:
             use_torch=False,
         )
     )
-    second = service.run_sync(
+    service.run_sync(
         ExperimentConfig(
             experiment_name="rollback-2",
             model_name="classifier-c",

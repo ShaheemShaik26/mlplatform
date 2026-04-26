@@ -9,7 +9,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from mlplatform.config import SETTINGS
 from mlplatform.schemas import ExperimentConfig
 from mlplatform.storage import ArtifactStore
 

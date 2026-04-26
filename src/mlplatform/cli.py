@@ -10,7 +10,6 @@ import yaml
 from mlplatform.db import init_db
 from mlplatform.schemas import ExperimentConfig
 from mlplatform.training.service import TrainingService
-from mlplatform.api.app import create_app
 
 
 def main(argv: list[str] | None = None) -> int:

@@ -10,7 +10,7 @@ from uuid import uuid4
 from sqlalchemy import select
 
 from mlplatform.db import session_scope
-from mlplatform.models import InferenceEvent, ModelVersion
+from mlplatform.models import InferenceEvent
 
 
 @dataclass

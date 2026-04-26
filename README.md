@@ -66,6 +66,7 @@ tests/
 
 These are real measurements from the current codebase and are safe to quote in internal docs or a resume:
 
+- Verified on April 26, 2026: `ruff check src tests` passes and `pytest` passes.
 - 5/5 automated tests passing with `pytest`.
 - 28 Python files across `src` and `tests`.
 - 1,633 total lines of Python code in `src` and `tests`.
@@ -92,7 +93,7 @@ python -m mlplatform.scripts.training_sanity_check
 Run tests:
 
 ```bash
-pytest
+python -m pytest
 ```
 
 ## Design Decisions
